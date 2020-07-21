@@ -40,8 +40,8 @@ for (let i = 0; i < modeButtons.length; i++) {
             numOfSquares = 3;
             reset();
         });
-    } 
-    else if(modeButtons[i].textContent === 'Hard') {
+    }
+    else if (modeButtons[i].textContent === 'Hard') {
         modeButtons[i].addEventListener('click', () => {
             for (let i = 0; i < modeButtons.length; i++) {
                 modeButtons[i].classList.remove('selected');
@@ -50,7 +50,7 @@ for (let i = 0; i < modeButtons.length; i++) {
             numOfSquares = 6;
             reset();
         });
-    } 
+    }
     else {
         modeButtons[i].addEventListener('click', () => {
             for (let i = 0; i < modeButtons.length; i++) {
@@ -112,6 +112,4 @@ function reset() {
     messageDisplay.textContent = '';
     resetButton.textContent = 'New Colors';
     header.style.backgroundColor = '#333ee3';
-
-
 }

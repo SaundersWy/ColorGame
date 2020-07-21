@@ -66,6 +66,7 @@ h1 span {
     max-width: 700px;
     margin: 0 auto;
     padding-top: 10px;
+
 }
 
 .square {
@@ -73,7 +74,6 @@ h1 span {
     height: 180px;
     margin: 1.66%;
     float: left;
-    background: red;
     padding-bottom: 20%;
     border-radius: 20px;
     transition: background .4s;
