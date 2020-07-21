@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+body {
+    background: #484F56;
+}
+
+h1 {
+    text-align: center;
+    background-color: #333ee3;
+    color: white;
+    font-size: 30pt;
+    letter-spacing: 1.3px;
+    padding: 5px;
+    text-shadow: 2px 3px 5px #000;
+    font-weight: 100;
+}
+
+h1 span {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+/* Game strip of buttons */
+#game-control-container {
+    text-align: center;
+    background-color: snow;
+    height: 30px;
+}
+
+#game-control-container span {
+    display: inline-block;
+    width: 20%;
+}
+
+#game-control-container button {
+    background: none;
+    outline: none;
+    border: none;
+    height: 100%;
+    color: #142432;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    padding: 0 7px;
+}
+
+#game-control-container .selected {
+    background: #142432;
+    color: white;
+}
+
+
+/* Container containing squares */
+#square-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.square {
+    width: 30%;
+    height: 180px;
+    margin: 1.66%;
+    float: left;
+    background: red;
+    padding-bottom: 20%;
+    border-radius: 20px;
+    transition: background .4s;
+}
+
+
+/* Selected Class */
+.selected {
+    background: #142432;
+    color: snow;
+}
+
+.signature {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-size: 0.8em;
+}
