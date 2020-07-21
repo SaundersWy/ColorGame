@@ -46,7 +46,13 @@ h1 span {
     font-size: 1.1em;
     text-transform: uppercase;
     letter-spacing: 1.3px;
-    padding: 0 7px;
+    padding: 0 10px;
+    transition: background 0.25s;
+}
+
+#game-control-container button:hover {
+    background: #333ee3;
+    color: snow;
 }
 
 #game-control-container .selected {
